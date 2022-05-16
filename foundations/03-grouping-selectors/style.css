@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Tinos";
-    src: url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 .black, 
 .yellow {
