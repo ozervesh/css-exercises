@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Tinos";
+    src: url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+}
+
+.black, 
+.yellow {
+    font-size: 50px;
+    font-family: "Tinos", serif;
+}
+
+.black {
+    color: white;
+    background-color: black;
+}
+
+.yellow {
+    color: black;
+    background-color: yellow;
+}
