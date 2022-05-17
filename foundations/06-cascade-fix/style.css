@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  background-color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
@@ -11,24 +18,24 @@
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.text {
+  color: green;
+  font-size: 22px;
+}
+
 .child {
   color: red;
   font-size: 14px;
-}
-
-div.text {
-  color: green;
-  font-size: 22px;
 }
