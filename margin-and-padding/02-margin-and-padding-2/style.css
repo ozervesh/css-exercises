@@ -8,27 +8,25 @@ body {
   color: black;
 }
 
-.title,
-.content,
-.button-container {
-  margin: 8px;
-}
-
 .card {
   width: 400px;
   background: #fff;
-  margin: 8px auto; /* (top bottom) (left right)*/
+  margin: 16px auto; /* (top bottom) (left right)*/
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
   font-size: 16px;
   padding: 8px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
   padding: 16px 8px; /* (top bottom) (left right)*/
+  margin-bottom: 8px;
 }
 
 .button-container {
@@ -41,6 +39,6 @@ button {
   display: block;
   background: white;
   border: 1px solid #eee;
-  margin: auto;
+  margin: 0 auto; /* centers the button*/
   padding: 8px 24px; /* (top bottom) (left right)*/
 }
